@@ -1,6 +1,5 @@
-const lang = {
-
-    cpp:{
+const lang = [
+    {
         name:"cpp",
         //TODO add support for bits/stdc++.h header file
         BoilerPlate:`#include<bits/stdc++.h>
@@ -11,8 +10,7 @@ int main()
     return 0;
 }`
     },
-
-    java:{
+    {
         name:"java",
         BoilerPlate:`public class Main {
     public static void main(String args[]) {
@@ -20,13 +18,11 @@ int main()
     }
 }`
     },
-
-    python:{
+    {
         name:"python",
         BoilerPlate:`print("Hello World!")`
     },
-
-    javascript:{
+    {
         name:"javascript",
         BoilerPlate:`/* 
     Use INPUT variable to get stdin.
@@ -34,7 +30,6 @@ int main()
 */
 console.log('Hello World');`
     }
-    
-}
+]
 
 export default lang;
