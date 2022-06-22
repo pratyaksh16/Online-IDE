@@ -33,7 +33,7 @@ export default function Dropdown(props) {
         <div className="dropdown-list">
         {isActive && props.languages.map(lang => {
         return (
-            <div className="dropdown-item" key={lang.name} onClick={()=>props.changeEditorLang(lang.name)}>
+            <div className="dropdown-item" key={lang.name} onClick={()=>{handleDropdownClick();props.changeEditorLang(lang.name)}}>
                 {lang.name}
             </div>
             )
