@@ -2,7 +2,7 @@ const lang = [
     {
         name:"cpp",
         //TODO add support for bits/stdc++.h header file
-        BoilerPlate:`#include<bits/stdc++.h>
+        BoilerPlate:`#include<iostream>
 using namespace std;
 
 int main()

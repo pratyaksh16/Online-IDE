@@ -36,7 +36,7 @@ function CodeSpace(props){
         </div>
       </div>
       <div className="print-area">
-        <IOspace heading="Enter Input" flag="true" />
+        <IOspace heading="Input" flag="true" />
         <IOspace heading="Output" flag="false"/>
       </div>
     </div>

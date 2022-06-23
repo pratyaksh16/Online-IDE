@@ -5,14 +5,14 @@ export default function Space(props){
     return(
       <div className="space">
       <span className="heading">{props.heading}</span>
-      <textarea className="space-input"></textarea>
+      <textarea className="space-input" placeholder="Enter input"></textarea>
       </div>
     )
   }else{
     return(
       <div className="space">
       <span className="heading">{props.heading}</span>
-      {/*TODO <div className="space-output"></div> */}
+      <div className="space-output"></div>
       </div>
     )
     }
