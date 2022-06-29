@@ -2,10 +2,10 @@
     font-family: 'Courier New', Courier, monospace;
     color: white;
     position: relative;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 20%;
     min-width: 10em;
-    height: 3em;
+    height: 2.5em;
     user-select: none;
     background-color: rgb(48,49,54);
 }

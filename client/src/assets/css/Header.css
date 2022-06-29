@@ -5,10 +5,9 @@
     height:4em;
     background-color: rgb(32,34,37);
     width: 100vw;
-
-    box-shadow: 0px 0px 1em 1px rgb(0, 0, 0);
-    z-index: 1;
-
+    
+    /* box-shadow: 0px 0px 1em 1px rgb(0, 0, 0);
+    z-index: 1; */
 }
 
 .header-sub-container{
@@ -19,7 +18,7 @@
     z-index: 2;
 }
 .header-content{
-    padding: 0 1%;
+    padding: 0 0.6%;
     width: 95%;
     height: 100%;
     display: flex;
@@ -41,22 +40,22 @@
     transition: all 0.15s ease-in-out;
 }
 
-/* .codeg-logo::before{
+.codeg-logo::before{
     position: absolute;
     content: "";
     height: 2px;
-    width: 4em;
+    width: 4.2em;
     background-color: rgb(79,79,79,0.5);
-    top: 100%;
+    top: 4.2em;
     border-radius: 100%;
     box-shadow: 1px ;
-} */
+}
 
 .codeg-logo::after{
     position: absolute;
     content: "";
-    height: 8vh;
-    width: 2px;
+    height: 7vh;
+    width: 3px;
     background-color: rgb(79,79,79,0.5);
     border-radius: 100%;
     left: 100%;
@@ -88,28 +87,30 @@
     min-width: 10em;
     height: 2em;
     border: 2px solid #00ffc2;
-    border-radius: 12px;
-  }
-  
-  .file-name {
+    border-radius: 25px;
+}
+
+.file-name {
     width: 70%;
     background-color: transparent;
     color: white;
     border: none;
-  }
+}
   
-  .file-name:focus {
-    outline: none;
-  }
+.file-name:focus {
+    outline: none;  
+}
   
-  .file-name-button {
+.file-name-button {
+    user-select: none;
     width: 20%;
     cursor: pointer;
     background: none;
     border: none;
     color: white;
-  }
+}
 .user-info div{
+    user-select: none;
     transition: all 0.3s ease-in-out;
     color: rgb(255, 255, 255);
 }
